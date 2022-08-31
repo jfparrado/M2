@@ -1,0 +1,33 @@
+// Código de Nav acá
+
+@phone: ~"max-width: 500px";
+@comp: ~"min-width: 500.1px";
+
+// @media only screen and (@comp) {
+nav {
+    text-align: center;
+}
+
+.header {
+    h2 {
+        margin-top: 1rem;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            font-size: 1.6rem;
+            display: inline-block;
+            margin: 1rem;
+        }
+    }
+}
+
+// }
+
+@media only screen and (@phone) {
+    li {
+        font-size: 2.6rem;
+    }
+}
